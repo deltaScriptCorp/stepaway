@@ -45,6 +45,33 @@
 
 	</head>
 	<body>
+		<!-- Load Facebook SDK for JavaScript -->
+		<div id="fb-root"></div>
+		<script>
+			window.fbAsyncInit = function() {
+				FB.init({
+				xfbml            : true,
+				version          : 'v3.3'
+				});
+			};
+
+			(function(d, s, id) {
+			var js, fjs = d.getElementsByTagName(s)[0];
+			if (d.getElementById(id)) return;
+			js = d.createElement(s); js.id = id;
+			js.src = 'https://connect.facebook.net/es_ES/sdk/xfbml.customerchat.js';
+			fjs.parentNode.insertBefore(js, fjs);
+			}(document, 'script', 'facebook-jssdk'));
+		</script>
+
+		<!-- Your customer chat code -->
+		<div class="fb-customerchat"
+		attribution=setup_tool
+		page_id="1754058398243039"
+		theme_color="#0084ff"
+		logged_in_greeting="¡Hola! ¿Cómo te podemos ayudar? Pregunta lo que necesites saber sobre los cursos"
+		logged_out_greeting="¡Hola! ¿Cómo te podemos ayudar? Pregunta lo que necesites saber sobre los cursos">
+		</div>
 
 		<video autoplay muted loop id="fh5co-home-video">
 			<source src="videos/fh5co_home_video.mp4" type="video/mp4">
@@ -60,10 +87,11 @@
 					</div>
 					<div id="navbar" class="navbar-collapse collapse">
 						<ul class="nav navbar-nav navbar-right">
-							<li><a href="#"><span>Canada</span></a></li>
-							<li><a href="#"><span>Irlanda</span></a></li>
-							<li><a href="#"><span>Francia</span></a></li>
 							<li><a href="#"><span>España</span></a></li>
+							<li><a href="#"><span>Irlanda</span></a></li>
+							<li><a href="#"><span>Canada</span></a></li>
+							<li><a href="#"><span>Francia</span></a></li>
+							
 							<li><a href="#"><span>| Blog | </span></a></li> 
 							<li><a href="#"><span>Contacto</span></a></li>
 						</ul>
@@ -94,38 +122,7 @@
 			<div class="gradient"></div>
 			<div class="container">
 				<div class="row row-bottom-padded-lg">
-					<div class="fh5co-block to-animate" style="background-image: url(images/img_10.jpg);" title="ESTUDIAR EN PARIS">
-						<div class="overlay"></div>
-						<div class="fh5co-text">
-								<span class="countries fh5co-france"></span>
-							<h2>Francia</h2>
-							<p>¿Vivir en Francia?... ¡Oh la la! </p>
-							<p>Vente con Nosotros a Conocer este Hermoso País. ¡Todo mientras estudias!</p>
-
-						</div>
-					</div>
-					<div class="fh5co-block to-animate" style="background-image: url(images/img_7.jpg);" title="ESTUDIAR EN CANADA">
-						<div class="overlay"></div>
-						<div class="fh5co-text">
-							<span class="countries fh5co-canada"></span>
-							<h2>Canadá</h2>
-							<p>¿Quieres Estudiar Inglés? ¿O prefieres Estudiar y Trabajar?</p>
-							<p>Aquí encontrarás Toda la Asesoría que Necesitas para Certificarte y/o Trabajaren el País del Maple, la Amistad y el Esquí. </p>
-							
-						</div>
-					</div>
-					<div class="fh5co-block to-animate" style="background-image: url(images/img_8.jpg);" title="ESTUDIAR EN DUBLIN">
-						<div class="overlay"></div>
-						<div class="fh5co-text">
-								<span class="countries fh5co-ireland"></span>
-							<h2>Irlanda</h2>
-							<p>¿Y si nos Vamos a Estudiar y Trabajar al País de la Buena Suerte?</p>
-							<p>Checa los Visados y Programas para viajar hacia este Increíble país Europeo</p>
-							
-						</div>
-					</div>
-					
-					<div class="fh5co-block to-animate" style="background-image: url(images/img_8.jpg);" title="ESTUDIAR EN ESPAÑA"> 
+					<div class="fh5co-block to-animate" style="background-image: url(images/img_7.jpg);" title="ESTUDIAR EN ESPAÑA"> 
 						<div class="overlay"></div>
 						<div class="fh5co-text">
 								<span class="countries fh5co-spain"></span>
@@ -135,6 +132,40 @@
 							
 						</div>
 					</div>
+
+					<div class="fh5co-block to-animate" style="background-image: url(images/img_7.jpg);" title="ESTUDIAR EN DUBLIN">
+						<div class="overlay"></div>
+						<div class="fh5co-text">
+								<span class="countries fh5co-ireland"></span>
+							<h2>Irlanda</h2>
+							<p>¿Y si nos Vamos a Estudiar y Trabajar al País de la Buena Suerte?</p>
+							<p>Checa los Visados y Programas para viajar hacia este Increíble país Europeo</p>
+							
+						</div>
+					</div>
+
+					<div class="fh5co-block to-animate" style="background-image: url(images/img_7.jpg);" title="ESTUDIAR EN CANADA">
+						<div class="overlay"></div>
+						<div class="fh5co-text">
+							<span class="countries fh5co-canada"></span>
+							<h2>Canadá</h2>
+							<p>¿Quieres Estudiar Inglés? ¿O prefieres Estudiar y Trabajar?</p>
+							<p>Aquí encontrarás Toda la Asesoría que Necesitas para Certificarte y/o Trabajar en el País del Maple, la Amistad y el Esquí. </p>
+							
+						</div>
+					</div>
+
+					<div class="fh5co-block to-animate" style="background-image: url(images/img_7.jpg);" title="ESTUDIAR EN PARIS">
+						<div class="overlay"></div>
+						<div class="fh5co-text">
+								<span class="countries fh5co-france"></span>
+							<h2>Francia</h2>
+							<p>¿Vivir en Francia?... ¡Oh la la! </p>
+							<p>Vente con Nosotros a Conocer este Hermoso País. ¡Todo mientras estudias!</p>
+
+						</div>
+					</div>
+					
 				</div>
 			</div>
 		</section>
@@ -155,7 +186,7 @@
 							<div class="col-2 text-center bottom">
 								<div class="circle"><img src="images/tm-01.png" alt="conócenos" /></div>
 							</div>
-							<div class="col-6">
+							<div class="col-6 text-center">
 								<p>Step- Away es una Agencia Canadiense de Intercambio Estudiantil comprometida con la Excelencia.</p>
 							</div>
 						</div>
@@ -173,13 +204,8 @@
 						</div>
 				
 						<div class="row-tm align-items-center justify-content-end about-tm">
-							<div class="col-6 text-right">
-								<p>Países de Primer Mundo, Nuevo Idioma, 
-										Nuevo Trabajo, ¿Qué estás esperando? 
-										Seremos tu compañero en esta travesía- 
-										Tendrás Asignado Coach Manager  24/7-
-										Asistencia 100% Gratuita.
-										</p>
+							<div class="col-6 text-center">
+								<p>¿Qué estás esperando? Seremos tu compañero en esta travesía. Tendrás Asignado un Coach Manager 24/7- Asistencia 100% Gratuita.</p>
 							</div>
 							<div class="col-2 text-center full">
 								<div class="circle"><img src="images/tm-02.png" alt="conócenos" /></div>
@@ -202,7 +228,7 @@
 							<div class="col-2 text-center full left">
 								<div class="circle"><img src="images/tm-03.png" alt="conócenos" /></div>
 							</div>
-							<div class="col-6">
+							<div class="col-6 text-center">
 								<p>Te ayudamos a elegir dónde Hospedarte: 
 										Residencias Estudiantiles, HomeStay 
 										o Departamento.
@@ -223,11 +249,8 @@
 						</div>
 		
 						<div class="row-tm align-items-center justify-content-end about-tm">
-							<div class="col-6 text-right">
-								<p>¡Te Tramitamos tu Visa!
-										– Estudio y/o Trabajo- 
-										Tú solo encárgate del Equipaje.                               
-										</p>
+							<div class="col-6 text-center">
+								<p>¡Te Tramitamos tu Visa! Estudia y/o Trabaja. Tú solo encárgate del Equipaje</p>
 							</div>
 							<div class="col-2 text-center full">
 								<div class="circle"><img src="images/tm-04.png" alt="conócenos" /></div>
@@ -250,7 +273,7 @@
 							<div class="col-2 text-center full left">
 								<div class="circle"><img src="images/tm-05.png" alt="conócenos" /></div>
 							</div>
-							<div class="col-6">
+							<div class="col-6 text-center">
 								<p>Es importante viajar con un 
 										Seguro de Gastos Médicos. 
 										¿Lo tienes? ¿No? 
@@ -272,14 +295,8 @@
 						</div>
 		
 						<div class="row-tm align-items-center justify-content-end about-tm">
-							<div class="col-6 text-right">
-								<p>Vas a necesitar Cuenta Bancaria
-										Y Celular del País. 
-										¡Sin Problema!
-										Nosotros te ayudamos con la
-										Misión.
-																		
-										</p>
+							<div class="col-6 text-center">
+								<p>Vas a necesitar Cuenta Bancaria y Celular del País… ¡Sin Problema! Nosotros te ayudamos con la gestión.</p>
 							</div>
 							<div class="col-2 text-center full">
 								<div class="circle"><img src="images/tm-06.png" alt="conócenos" /></div>
@@ -302,13 +319,8 @@
 							<div class="col-2 text-center top">
 								<div class="circle"><img src="images/tm-07.png" alt="conócenos" /></div>
 							</div>
-							<div class="col-6">
-								<p>Airport Pick Up
-										- La bienvenida que te mereces- 
-										¿Café o Smoothie? 
-										Va por nuestra cuenta 
-																			
-										</p>
+							<div class="col-6 text-center">
+								<p>Airport Pick Up ¡Bienvenid@! ¿Café o Smoothie? ¡Va por nuestra cuenta!</p>
 							</div>
 						</div>			
 					</div>
@@ -334,13 +346,13 @@
 								<!--<h2>Francia</h2>-->
 								<div class="image-text">
 									<ul>
-										<li><a href="contacto.html">Encuentra con Step Away</a> el Mejor Precio en tu Programa de Estudio. Checa las Promociones y Pregunta por el Programa de Referidos.</li>
-										<li>Trabajamos con las escuelas con certificados de calidad por parte del gobierno Canadiense <a href="https://www2.gov.bc.ca/gov/content/education-training/post-secondary-education/institution-resources-administration/education-quality-assurance">(EQA)</a>(DLI).</li>
-										<li>A tu llegada, te recibimos con tu KIT de bienvenida- Todo lo que necesitas en tu Backpack</li>
-										<li>¿No sabes que escuela elegir? No te preocupes, Tu Coach Manager asignado te ayudara con esta importante decisión</li>
-										<li>¿Tienes permiso de trabajo? Te vinculados con nuestra red de talentos para que ingreses rápidamente al  mundo laboral.</li>
-										<li>Con nosotros no pagas comisiones, nuestros servicios son 100% gratuitos</li>
-										<li>Te acompañamos en todo tu viaje, nuestro equipo siempre estará contigo. Nuestro coaching es indefinido</li>
+										<li>Ofrecemos el Mejor Precio en tu Programa de Estudio.</li>
+										<li>¡Checa las Promociones y Pregunta por el Programa de Referidos!</li>
+										<li>Calidad Escolar avalada por el Gobierno Canadiense <a href="https://www2.gov.bc.ca/gov/content/education-training/post-secondary-education/institution-resources-administration/education-quality-assurance">(EQA)</a>(DLI).</li>
+										<li>Recibe tu Kit de Bienvenida. </li>
+										<li>¿No sabes que escuela elegir? Tu Coach Manager asignado te ayudará.</li>
+										<li>¿Tienes permiso de trabajo? Te vinculados con nuestra red de talentos.</li>
+										<li>0% de Comisión</li>
 									</ul>
 								</div>	
 							</div>
@@ -395,9 +407,13 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12 section-heading text-center">
-						<h2>Ve el video</h2>
+						<h2>Historias que cuentan...</h2>
 						<div class="row">
 							<div class="col-md-8 col-md-offset-2 subtext">
+								<video id="video_step" width="auto" height="auto" controls poster="images/video_preview.jpg">
+									<source src="videos/fh5co_section_video.mp4" type="video/mp4">
+										<img class="video_preview" src="images/video_preview.jpg" />
+								</video>
 							</div>
 						</div>
 					</div>
@@ -415,23 +431,51 @@
 
 						<p><strong>Canadá: </strong><span>+16047040718</span><br/><span>info@step-away.com</span></p>
 						<p><strong>Colombia: </strong><span>+57 301 6333197</span><br/><span>alfonso.arango@step-away.com</span></p>
-						<p><strong>México: </strong><span>+52 1 33</span><br/><span>@step-away.com</span></p>
+						<p><strong>México: </strong><span>+52 1 55 6489 8339</span><br/><span>isis.santiago@step-away.com</span></p>
 					</div>
 				</div>
 				<div class="row">
 					<div class="col-md-12 text-center">
 						<ul class="social social-circle">
-							<li><a href="#"><i class="icon-facebook"></i></a></li>
+							<li>
+								<a href="https://www.facebook.com/stepawaycanada/">
+									<i class="icon-facebook"></i>
+								</a>
+							</li>
 							<li><a href="#"><i class="icon-phone"></i></a></li>
-							<li><a href="#"><i class="icon-instagram"></i></a></li>
+							<li>
+								<a href="https://www.instagram.com/stepawaycanada/">
+									<i class="icon-instagram"></i>
+								</a>
+							</li>
 							<li><a href="#"><i class="icon-skype"></i></a></li>
 							<li><a href="#"><i class="icon-mail2"></i></a></li>
 						</ul>
 					</div>
 				</div>
+				<div class="row copyright">
+					<div class="fh5co-copyright col-md-12 text-center">
+						<p>Copyright: © 2017 Step Away Education Consulting Corp.</p>
+					</div>
+				</div>
 			</div>
 		</footer>
+
 		
+		<div id="fh5co-social-bar" class="text-center">
+			<ul class="social social-circle">
+				<li>
+					<a href="https://www.facebook.com/stepawaycanada/" data-theme="style">
+						<i class="icon-facebook"></i>
+					</a>
+				</li>
+				<li>
+					<a href="https://www.instagram.com/stepawaycanada/" data-theme="style2">
+						<i class="icon-instagram"></i>
+					</a>
+				</li>		
+			</ul>
+		</div>
 		<!-- jQuery -->
 		<script src="js/jquery.min.js"></script>
 		<!-- jQuery Easing -->
