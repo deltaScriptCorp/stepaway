@@ -200,6 +200,9 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 40px;
 }
 @media screen and (max-width: 768px) {
+  .image-text {
+    position: inherit !important;
+  }
   #fh5co-header {
     margin-top: 0;
     background: #fff;
@@ -233,6 +236,7 @@ h1, h2, h3, h4, h5, h6 {
     -webkit-transform: scaleX(1);
     transform: scaleX(1);
   }
+  
 }
 
 #fh5co-header .navbar {
@@ -302,10 +306,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #fh5co-header #fh5co-step-logo {
-  width: 215px;
-  height: 82px;
+  width: 205px;
+  height: 72px;
   background: transparent url(../images/logo.png) no-repeat;
-  background-size: 215px 82px;
+  background-size: 205px 72px;
 }
 
 #fh5co-header.navbar-fixed-top #fh5co-step-logo {
@@ -506,9 +510,9 @@ h1, h2, h3, h4, h5, h6 {
   float: left;
   text-align: center;
   font-size: 18px;
-  min-height: 481px;
+  min-height: 400px;
   vertical-align: middle;
-  padding: 40px;
+  padding: 20px;
   background: #fff;
   color: #fff;
   -webkit-box-shadow: 7px 14px 42px 3px rgba(163, 174, 184, 0.4);
@@ -829,6 +833,9 @@ h1, h2, h3, h4, h5, h6 {
     float: left;
     width: 100%;
   }
+  .image-text {
+    position: inherit !important;
+  }
 }
 #fh5co-counters .fh5co-counter .fh5co-counter-icon,
 #fh5co-counters .fh5co-counter .fh5co-counter-number,
@@ -942,6 +949,8 @@ h1, h2, h3, h4, h5, h6 {
   color: rgba(255, 255, 255, 0.8);
   
   background-image: url("../images/work_bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
   /* IE9, iOS 3.2+ 
   background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAxIDEiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxsaW5lYXJHcmFkaWVudCBpZD0idnNnZyIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMTAwJSIgeTI9IjEwMCUiPjxzdG9wIHN0b3AtY29sb3I9IiMzZjk1ZWEiIHN0b3Atb3BhY2l0eT0iMSIgb2Zmc2V0PSIwIi8+PHN0b3Agc3RvcC1jb2xvcj0iIzUyZDNhYSIgc3RvcC1vcGFjaXR5PSIxIiBvZmZzZXQ9IjEiLz48L2xpbmVhckdyYWRpZW50PjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9InVybCgjdnNnZykiIC8+PC9zdmc+);
   background-image: -webkit-gradient(linear, 0% 0%, 100% 100%, color-stop(0, #3f95ea), color-stop(1, #52d3aa));
@@ -974,6 +983,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 101%;
 }
 #fh5co-work:before {
+  display: none;
   background-image: url(../images/before-bg-7.png);
   background-repeat: no-repeat;
   background-position: center;
@@ -982,6 +992,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: -35px;
 }
 #fh5co-work:after {
+  display: none;
   bottom: 0;
   margin-bottom: -35px;
 }
@@ -1468,6 +1479,9 @@ h1, h2, h3, h4, h5, h6 {
     float: none;
     width: 100%;
   }
+  .image-text {
+    position: inherit !important;
+  }
 }
 
 .row-tm-bottom-padded-lg {
@@ -1548,12 +1562,12 @@ a.fh5co-aclass {
   border-radius: 50%;
   background-color: transparent;
   color: #fff;
-  max-height: 50px;
+  max-height: 70px;
   z-index: 2;
 }
 .circle img {
-  max-height: 50px;
-  max-width: 50px;
+  max-height: 70px;
+  max-width: 70px;
 }
 .hover-animate {
   position: relative;
@@ -1561,11 +1575,11 @@ a.fh5co-aclass {
   background-color:#fff;
   z-index: 10;
   transition: transform .2s;
-  font-size: 12px !important;
+  font-size: 14px !important;
 }
 .hover-animate:hover {
   background-color:#00334a;
-  transform: scale(1.2);
+  transform: scale(1.1);
   font-size: 14px !important;
 }
 .hover-animate:hover > .image-text{
@@ -1574,12 +1588,18 @@ a.fh5co-aclass {
 .image-text {
   position: absolute;
   bottom: 5px;
+  top: 5px;
   right: 5px;
-  left: 5px;
+  left: 65%;
   background: rgba(0,51,74,.8);
   color: #fff;
+  overflow: hidden;
 }
-
+.image-text > ul {
+  position:relative;
+  top: 5%;
+  right: 5%;
+}
 
 .about-tm.row-tm {
   display: flex;

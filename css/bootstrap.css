@@ -2421,7 +2421,9 @@ pre code {
   .col-md-2 {
     width: 16.66667%;
   }
-
+  .col-md-s-2-1{
+    width: 20.833335%;
+  }
   .col-md-3 {
     width: 25%;
   }
