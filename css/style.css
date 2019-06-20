@@ -205,23 +205,23 @@ h1, h2, h3, h4, h5, h6 {
   }
   #fh5co-header {
     margin-top: 0;
-    background: #fff;
+    background: #013249;
     -webkit-box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.1);
     -moz-box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.1);
     -ms-box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.1);
     box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.1);
   }
   #fh5co-header .navbar-brand {
-    color: #52d3aa !important;
+    color: #fff !important;
   }
   #fh5co-header #navbar li a {
-    color: rgba(0, 0, 0, 0.5) !important;
+    color: #fff !important;
     -webkit-transition: 0.3s;
     -o-transition: 0.3s;
     transition: 0.3s;
   }
   #fh5co-header #navbar li a:hover {
-    color: #52d3aa !important;
+    color: #fff !important;
   }
   #fh5co-header #navbar li a span:before {
     background: transparent !important;
@@ -229,7 +229,7 @@ h1, h2, h3, h4, h5, h6 {
   #fh5co-header #navbar li.active a {
     background: transparent;
     background: none;
-    color: #52d3aa !important;
+    color: #fff !important;
   }
   #fh5co-header #navbar li.active a span:before {
     visibility: visible;
@@ -304,23 +304,36 @@ h1, h2, h3, h4, h5, h6 {
   padding-left: 0;
   color: #fff;
 }
-
-#fh5co-header #fh5co-step-logo {
+#fh5co-header > .container > .navbar > .navbar-header > .navbar-brand > img {
+  position: relative;
+  margin-top: -10px;
+  height: 78px;
+  width: auto!important;
+  
+}
+#fh5co-header.navbar-fixed-top > .container > .navbar > .navbar-header > .navbar-brand > img {
+  position: relative;
+  margin-top: -10px;
+  height: 42px;
+  width: auto!important;
+  
+}
+/*#fh5co-header #fh5co-step-logo {
   width: 205px;
   height: 72px;
   background: transparent url(../images/logo.png) no-repeat;
   background-size: 205px 72px;
-}
+}*/
 
-#fh5co-header.navbar-fixed-top #fh5co-step-logo {
+/*#fh5co-header.navbar-fixed-top #fh5co-step-logo {
   width: 195px;
   height: 62px;
   background: transparent url(../images/logo_slide.png) no-repeat;
   background-size: 195px 62px;
-}
+}*/
 #fh5co-header.navbar-fixed-top {
   position: fixed !important;
-  background: #fff;
+  background: #013249;
   -webkit-box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.1);
   -moz-box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.1);
   -ms-box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.1);
@@ -329,27 +342,28 @@ h1, h2, h3, h4, h5, h6 {
   top: 0;
 }
 #fh5co-header.navbar-fixed-top .navbar-brand {
-  color: #52d3aa;
+  color: #fff;
 }
 #fh5co-header.navbar-fixed-top #navbar li a {
-  color: rgba(0, 0, 0, 0.5);
+  /*color: rgba(0, 0, 0, 0.5);*/
+  color: #fff;
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
 }
 #fh5co-header.navbar-fixed-top #navbar li a:hover {
-  color: #52d3aa;
+  color: #fff;
 }
 #fh5co-header.navbar-fixed-top #navbar li.active a {
   background: transparent;
   background: none;
-  color: #52d3aa;
+  color: #fff;
 }
 #fh5co-header.navbar-fixed-top #navbar li.active a span:before {
   visibility: visible;
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
-  background-color: #52d3aa;
+  background-color: #013249;
 }
 #fh5co-header .navbar-default {
   border: transparent;
@@ -373,7 +387,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #adadad;
 }
 #fh5co-header .navbar-default .brand-slogan em {
-  color: #52d3aa;
+  color: #fff;
   font-style: normal;
 }
 #fh5co-header a {
@@ -1234,14 +1248,14 @@ h1, h2, h3, h4, h5, h6 {
   font: bold 14px/.4 Helvetica;
   text-transform: uppercase;
   text-indent: -55px;
-  background: #00334a;
+  background: #fff;
   transition: all .2s ease-out;
 }
 .fh5co-nav-toggle i::before, .fh5co-nav-toggle i::after {
   content: '';
   width: 25px;
   height: 3px;
-  background: #00334a;
+  background: #fff;
   position: absolute;
   left: 0;
   -webkit-transition: 0.2s;
