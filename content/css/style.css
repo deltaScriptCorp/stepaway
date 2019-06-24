@@ -427,7 +427,7 @@ h1, h2, h3, h4, h5, h6 {
   opacity: 0.3;
   -webkit-backface-visibility: hidden;
   background-color: #00334a;
-  margin-top: 150px;
+  margin-top: 130px;
 }
 #fh5co-home, #fh5co-home .text-wrap {
   height: 500px;
@@ -851,6 +851,11 @@ h1, h2, h3, h4, h5, h6 {
   }
   .image-text {
     position: inherit !important;
+  }
+
+  #fh5co-header > .container > .navbar > .navbar-header > .navbar-brand > img {
+    height: 45px !important;
+
   }
 }
 #fh5co-counters .fh5co-counter .fh5co-counter-icon,
