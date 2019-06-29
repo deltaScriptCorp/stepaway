@@ -432,6 +432,9 @@ h1, h2, h3, h4, h5, h6 {
 #fh5co-home, #fh5co-home .text-wrap {
   height: 500px;
 }
+#fh5co-home.country, #fh5co-home .text-wrap {
+  height: 400px;
+}
 #fh5co-home .text-wrap {
   display: table;
   width: 100%;
@@ -745,10 +748,12 @@ h1, h2, h3, h4, h5, h6 {
 #fh5co-services:before {
   top: 0;
   margin-top: -35px;
+  display:none;
 }
 #fh5co-services:after {
   bottom: 0;
   margin-bottom: -35px;
+  display: none;
 }
 #fh5co-services .fh5co-service {
   padding-right: 30px;
@@ -1774,9 +1779,39 @@ p {
 .video_preview {
   width:100%;
 }
-/*Sections*/
+/*Sections - CANADA*/
 
 #fh5co-home.canada {
   background-image: url('../images/canada_bg.jpg');
-  background-size: cover; 
+  background-size: cover;
+  background-position: 0px -200px !important;
+}
+#fh5co-about.canada {
+  padding-top: 2em !important;
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+  padding-bottom: 1em !important;
+}
+
+#fh5co-work.canada {
+  background-image: none !important;
+  background-color: #fff !important;
+  padding-top: 1em !important;
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+  padding-bottom: 2em !important;
+}
+#fh5co-services.canada {
+  background: rgba(28, 75, 112, 1) !important;
+  padding: 2em 0;
+}
+#fh5co-services.canada > .container {
+  z-index: 3 !important;
+}
+
+.btn-responsive {
+  max-width: 100%;
+}
+.s-img-responsive {
+  max-width: 80% !important;
 }
