@@ -19,14 +19,22 @@ body {
 }
 
 a {
-  color: #52d3aa;
+  color: #013249;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
 }
-a:hover, a:active, a:focus {
-  color: #52d3aa;
+a.block {
+  color: #fff;
   outline: none;
+}
+a:hover, a:active, a:focus {
+  color: #013249;
+  outline: none;
+}
+
+a.block:hover, a.block:active, a.block:focus {
+  color: #000
 }
 
 p {
@@ -594,6 +602,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 #fh5co-intro .fh5co-block:hover > .fh5co-text, #fh5co-intro .fh5co-block:focus > .fh5co-text {
   color: #000;
+  cursor: pointer;
 }
 #fh5co-intro .fh5co-block:hover > .fh5co-text .fh5co-intro-icon, #fh5co-intro .fh5co-block:focus > .fh5co-text .fh5co-intro-icon {
   color: #000;
@@ -756,7 +765,8 @@ h1, h2, h3, h4, h5, h6 {
   display: none;
 }
 #fh5co-services .fh5co-service {
-  padding-right: 30px;
+  padding-right: 0px;
+  padding-left: 0px !important;
 }
 #fh5co-services h3 {
   font-size: 24px;
@@ -1175,8 +1185,8 @@ h1, h2, h3, h4, h5, h6 {
 .section-heading {
   float: left;
   width: 100%;
-  padding-bottom: 50px;
-  margin-bottom: 50px;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
   clear: both;
 }
 .section-heading h2 {
@@ -1784,7 +1794,8 @@ p {
 #fh5co-home.canada {
   background-image: url('../images/canada_bg.jpg');
   background-size: cover;
-  background-position: 0px -200px !important;
+  background-position: 0px -330px !important;
+  background-repeat: no-repeat;
 }
 #fh5co-about.canada {
   padding-top: 2em !important;
@@ -1814,4 +1825,12 @@ p {
 }
 .s-img-responsive {
   max-width: 80% !important;
+}
+
+/*Whistler*/
+#fh5co-home.whistler {
+  background-image: url('../images/whistler_bg.jpg');
+  background-size: cover;
+  background-position: 0px -300px !important;
+  background-repeat: no-repeat;
 }

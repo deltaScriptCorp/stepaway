@@ -474,5 +474,9 @@
 
 	});
 
+	$('#fh5co_canada').on('click', function (){
+		window.location.href = "canada"
+	});
+
 
 }());
