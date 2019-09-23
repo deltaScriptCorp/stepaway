@@ -1827,9 +1827,40 @@ p {
   max-width: 80% !important;
 }
 
+/*vancouver*/
+#fh5co-home.vancouver {
+  background-image: url('../images/vancouver/bg.jpg');
+  background-size: cover;
+  background-position: 0px -300px !important;
+  background-repeat: no-repeat;
+}
+
+/*Toronto*/
+#fh5co-home.toronto {
+  background-image: url('../images/toronto/bg.jpg');
+  background-size: cover;
+  background-position: 0px -300px !important;
+  background-repeat: no-repeat;
+}
+
 /*Whistler*/
 #fh5co-home.whistler {
-  background-image: url('../images/whistler_bg.jpg');
+  background-image: url('../images/whistler/bg.jpg');
+  background-size: cover;
+  background-position: 0px -300px !important;
+  background-repeat: no-repeat;
+}
+
+/*Calgary*/
+#fh5co-home.calgary {
+  background-image: url('../images/calgary/bg.jpg');
+  background-size: cover;
+  background-position: 0px -300px !important;
+  background-repeat: no-repeat;
+}
+/*Montreal*/
+#fh5co-home.montreal {
+  background-image: url('../images/montreal/bg.jpg');
   background-size: cover;
   background-position: 0px -300px !important;
   background-repeat: no-repeat;
