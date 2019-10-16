@@ -1877,19 +1877,45 @@ p {
     height: 800px !important;
     background-attachment: scroll !important;
   }
+  #fh5co-home.barcelona_2 {
+    background-image: url('../images/barcelona/barcelona_contact_2.png');
+    background-size: cover;
+    background-position: 0px -150px !important;
+    background-repeat: no-repeat;
+    height: 800px !important;
+    background-attachment: scroll !important;
+  }
+  #fh5co-home.barcelona_3 {
+    background-image: url('../images/barcelona/barcelona_contact_3.png');
+    background-size: cover;
+    background-position: 0px -150px !important;
+    background-repeat: no-repeat;
+    height: 800px !important;
+    background-attachment: scroll !important;
+  }
+  #fh5co-home.barcelona_4 {
+    background-image: url('../images/barcelona/barcelona_contact_4.png');
+    background-size: cover;
+    background-position: 0px -150px !important;
+    background-repeat: no-repeat;
+    height: 800px !important;
+    background-attachment: scroll !important;
+  }
 
-  #fh5co-intro .contact {
-    border-radius: 0% !important;
-    float: right;
-    width: 33.33% !important; 
-    background: #234b6d !important;
-    opacity: 0.8;
-    text-align: center !important;
-    min-height: 300px !important;
-    vertical-align: middle !important;
-    padding: 40px !important;
-  }
-  .row-lg-contact {
-    width: 100% !important;
-  }
+  /*Contacto*/
+
+#fh5co-intro .contact {
+  border-radius: 0% !important;
+  float: right;
+  width: 33.33% !important; 
+  background: #234b6d !important;
+  opacity: 0.8;
+  text-align: center !important;
+  min-height: 300px !important;
+  vertical-align: middle !important;
+  padding: 40px !important;
+}
+.row-lg-contact {
+  width: 100% !important;
+}
   
