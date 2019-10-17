@@ -478,5 +478,17 @@
 		window.location.href = "canada"
 	});
 
+	$('#fh5co_francia').on('click', function (){
+		window.location.href = "francia"
+	});
+
+	$('#fh5co_irlanda').on('click', function (){
+		window.location.href = "irlanda"
+	});
+
+	$('#fh5co_espana').on('click', function (){
+		window.location.href = "españa"
+	});
+
 
 }());

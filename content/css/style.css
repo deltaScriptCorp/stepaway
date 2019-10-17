@@ -1867,6 +1867,12 @@ p {
 }
 
 /*Barcelona*/
+#fh5co-home.barcelona {
+  background-image: url('../images/barcelona/bg.jpg');
+  background-size: cover;
+  background-position: 0px -300px !important;
+  background-repeat: no-repeat;
+}
 
   /*curso 1*/
   #fh5co-home.barcelona_1 {
