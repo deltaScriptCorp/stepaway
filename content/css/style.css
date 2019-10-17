@@ -1789,6 +1789,7 @@ p {
 .video_preview {
   width:100%;
 }
+
 /*Sections - CANADA*/
 
 #fh5co-home.canada {
@@ -1834,6 +1835,112 @@ p {
   background-position: 0px -300px !important;
   background-repeat: no-repeat;
 }
+/*curso 1*/
+  #fh5co-home.vancouver_1 {
+    background-image: url('../images/vancouver/vancouver_contact_1.png');
+    background-size: cover;
+    background-position: 0px -150px !important;
+    background-repeat: no-repeat;
+    height: 800px !important;
+    background-attachment: scroll !important;
+  }
+  #fh5co-home.vancouver_2 {
+    background-image: url('../images/vancouver/vancouver_contact_2.png');
+    background-size: cover;
+    background-position: 0px -150px !important;
+    background-repeat: no-repeat;
+    height: 800px !important;
+    background-attachment: scroll !important;
+  }
+  #fh5co-home.vancouver_3 {
+    background-image: url('../images/vancouver/vancouver_contact_3.png');
+    background-size: cover;
+    background-position: 0px -150px !important;
+    background-repeat: no-repeat;
+    height: 800px !important;
+    background-attachment: scroll !important;
+  }
+  #fh5co-home.vancouver_4 {
+    background-image: url('../images/vancouver/vancouver_contact_4.png');
+    background-size: cover;
+    background-position: 0px -150px !important;
+    background-repeat: no-repeat;
+    height: 800px !important;
+    background-attachment: scroll !important;
+  }
+  #fh5co-home.vancouver_5 {
+    background-image: url('../images/vancouver/vancouver_contact_5.png');
+    background-size: cover;
+    background-position: 0px -150px !important;
+    background-repeat: no-repeat;
+    height: 800px !important;
+    background-attachment: scroll !important;
+  }
+  #fh5co-home.vancouver_6 {
+    background-image: url('../images/vancouver/vancouver_contact_6.png');
+    background-size: cover;
+    background-position: 0px -150px !important;
+    background-repeat: no-repeat;
+    height: 800px !important;
+    background-attachment: scroll !important;
+  }
+  #fh5co-home.vancouver_7 {
+    background-image: url('../images/vancouver/vancouver_contact_7.png');
+    background-size: cover;
+    background-position: 0px -150px !important;
+    background-repeat: no-repeat;
+    height: 800px !important;
+    background-attachment: scroll !important;
+  }
+  #fh5co-home.vancouver_8 {
+    background-image: url('../images/vancouver/vancouver_contact_8.png');
+    background-size: cover;
+    background-position: 0px -150px !important;
+    background-repeat: no-repeat;
+    height: 800px !important;
+    background-attachment: scroll !important;
+  }
+  #fh5co-home.vancouver_9 {
+    background-image: url('../images/vancouver/vancouver_contact_9.png');
+    background-size: cover;
+    background-position: 0px -150px !important;
+    background-repeat: no-repeat;
+    height: 800px !important;
+    background-attachment: scroll !important;
+  }
+  #fh5co-home.vancouver_10 {
+    background-image: url('../images/vancouver/vancouver_contact_10.png');
+    background-size: cover;
+    background-position: 0px -150px !important;
+    background-repeat: no-repeat;
+    height: 800px !important;
+    background-attachment: scroll !important;
+  }
+  #fh5co-home.vancouver_11 {
+    background-image: url('../images/vancouver/vancouver_contact_11.png');
+    background-size: cover;
+    background-position: 0px -150px !important;
+    background-repeat: no-repeat;
+    height: 800px !important;
+    background-attachment: scroll !important;
+  }
+  #fh5co-home.vancouver_12 {
+    background-image: url('../images/vancouver/vancouver_contact_12.png');
+    background-size: cover;
+    background-position: 0px -150px !important;
+    background-repeat: no-repeat;
+    height: 800px !important;
+    background-attachment: scroll !important;
+  }
+  #fh5co-home.vancouver_13 {
+    background-image: url('../images/vancouver/vancouver_contact_13.png');
+    background-size: cover;
+    background-position: 0px -150px !important;
+    background-repeat: no-repeat;
+    height: 800px !important;
+    background-attachment: scroll !important;
+  }
+
 
 /*Toronto*/
 #fh5co-home.toronto {
@@ -1842,6 +1949,71 @@ p {
   background-position: 0px -300px !important;
   background-repeat: no-repeat;
 }
+/* Cursos */
+   #fh5co-home.toronto_1 {
+    background-image: url('../images/toronto/toronto_contact_1.png');
+    background-size: cover;
+    background-position: 0px -150px !important;
+    background-repeat: no-repeat;
+    height: 800px !important;
+    background-attachment: scroll !important;
+  }
+  #fh5co-home.toronto_2 {
+    background-image: url('../images/toronto/toronto_contact_2.png');
+    background-size: cover;
+    background-position: 0px -150px !important;
+    background-repeat: no-repeat;
+    height: 800px !important;
+    background-attachment: scroll !important;
+  }
+  #fh5co-home.toronto_3 {
+    background-image: url('../images/toronto/toronto_contact_3.png');
+    background-size: cover;
+    background-position: 0px -150px !important;
+    background-repeat: no-repeat;
+    height: 800px !important;
+    background-attachment: scroll !important;
+  }
+  #fh5co-home.toronto_4 {
+    background-image: url('../images/toronto/toronto_contact_4.png');
+    background-size: cover;
+    background-position: 0px -150px !important;
+    background-repeat: no-repeat;
+    height: 800px !important;
+    background-attachment: scroll !important;
+  }
+  #fh5co-home.toronto_5 {
+    background-image: url('../images/toronto/toronto_contact_5.png');
+    background-size: cover;
+    background-position: 0px -150px !important;
+    background-repeat: no-repeat;
+    height: 800px !important;
+    background-attachment: scroll !important;
+  }
+  #fh5co-home.toronto_6 {
+    background-image: url('../images/toronto/toronto_contact_6.png');
+    background-size: cover;
+    background-position: 0px -150px !important;
+    background-repeat: no-repeat;
+    height: 800px !important;
+    background-attachment: scroll !important;
+  }
+  #fh5co-home.toronto_7 {
+    background-image: url('../images/toronto/toronto_contact_7.png');
+    background-size: cover;
+    background-position: 0px -150px !important;
+    background-repeat: no-repeat;
+    height: 800px !important;
+    background-attachment: scroll !important;
+  }
+  #fh5co-home.toronto_7 {
+    background-image: url('../images/toronto/toronto_contact_7.png');
+    background-size: cover;
+    background-position: 0px -150px !important;
+    background-repeat: no-repeat;
+    height: 800px !important;
+    background-attachment: scroll !important;
+  }
 
 /*Whistler*/
 #fh5co-home.whistler {
@@ -1851,6 +2023,48 @@ p {
   background-repeat: no-repeat;
 }
 
+/* Cursos */
+   #fh5co-home.whistler_1 {
+    background-image: url('../images/whistler/whistler_contact_1.png');
+    background-size: cover;
+    background-position: 0px -150px !important;
+    background-repeat: no-repeat;
+    height: 800px !important;
+    background-attachment: scroll !important;
+  }
+  #fh5co-home.whistler_2 {
+    background-image: url('../images/whistler/whistler_contact_2.png');
+    background-size: cover;
+    background-position: 0px -150px !important;
+    background-repeat: no-repeat;
+    height: 800px !important;
+    background-attachment: scroll !important;
+  }
+  #fh5co-home.whistler_3 {
+    background-image: url('../images/whistler/whistler_contact_3.png');
+    background-size: cover;
+    background-position: 0px -150px !important;
+    background-repeat: no-repeat;
+    height: 800px !important;
+    background-attachment: scroll !important;
+  }
+  #fh5co-home.whistler_4 {
+    background-image: url('../images/whistler/whistler_contact_4.png');
+    background-size: cover;
+    background-position: 0px -150px !important;
+    background-repeat: no-repeat;
+    height: 800px !important;
+    background-attachment: scroll !important;
+  }
+  #fh5co-home.whistler_5 {
+    background-image: url('../images/whistler/whistler_contact_5.png');
+    background-size: cover;
+    background-position: 0px -150px !important;
+    background-repeat: no-repeat;
+    height: 800px !important;
+    background-attachment: scroll !important;
+  }
+
 /*Calgary*/
 #fh5co-home.calgary {
   background-image: url('../images/calgary/bg.jpg');
@@ -1858,11 +2072,86 @@ p {
   background-position: 0px -300px !important;
   background-repeat: no-repeat;
 }
+/* Cursos */
+   #fh5co-home.calgary_1 {
+    background-image: url('../images/calgary/calgary_contact_1.png');
+    background-size: cover;
+    background-position: 0px -150px !important;
+    background-repeat: no-repeat;
+    height: 800px !important;
+    background-attachment: scroll !important;
+  }
+  #fh5co-home.calgary_2 {
+    background-image: url('../images/calgary/calgary_contact_2.png');
+    background-size: cover;
+    background-position: 0px -150px !important;
+    background-repeat: no-repeat;
+    height: 800px !important;
+    background-attachment: scroll !important;
+  }
+  #fh5co-home.calgary_3 {
+    background-image: url('../images/calgary/calgary_contact_3.png');
+    background-size: cover;
+    background-position: 0px -150px !important;
+    background-repeat: no-repeat;
+    height: 800px !important;
+    background-attachment: scroll !important;
+  }
+  #fh5co-home.calgary_4 {
+    background-image: url('../images/calgary/calgary_contact_4.png');
+    background-size: cover;
+    background-position: 0px -150px !important;
+    background-repeat: no-repeat;
+    height: 800px !important;
+    background-attachment: scroll !important;
+  }
 /*Montreal*/
 #fh5co-home.montreal {
   background-image: url('../images/montreal/bg.jpg');
   background-size: cover;
   background-position: 0px -300px !important;
+  background-repeat: no-repeat;
+}
+/* Cursos */
+   #fh5co-home.montreal_1 {
+    background-image: url('../images/montreal/montreal_contact_1.png');
+    background-size: cover;
+    background-position: 0px -150px !important;
+    background-repeat: no-repeat;
+    height: 800px !important;
+    background-attachment: scroll !important;
+  }
+  #fh5co-home.montreal_2 {
+    background-image: url('../images/montreal/montreal_contact_2.png');
+    background-size: cover;
+    background-position: 0px -150px !important;
+    background-repeat: no-repeat;
+    height: 800px !important;
+    background-attachment: scroll !important;
+  }
+  #fh5co-home.montreal_3 {
+    background-image: url('../images/montreal/montreal_contact_3.png');
+    background-size: cover;
+    background-position: 0px -150px !important;
+    background-repeat: no-repeat;
+    height: 800px !important;
+    background-attachment: scroll !important;
+  }
+  #fh5co-home.montreal_4 {
+    background-image: url('../images/montreal/montreal_contact_4.png');
+    background-size: cover;
+    background-position: 0px -150px !important;
+    background-repeat: no-repeat;
+    height: 800px !important;
+    background-attachment: scroll !important;
+  }
+
+/*Sections - ESPAÑA*/
+
+#fh5co-home.spain {
+  background-image: url('../images/spain_bg.jpg');
+  background-size: cover;
+  background-position: 0px -330px !important;
   background-repeat: no-repeat;
 }
 
@@ -1901,6 +2190,73 @@ p {
   }
   #fh5co-home.barcelona_4 {
     background-image: url('../images/barcelona/barcelona_contact_4.png');
+    background-size: cover;
+    background-position: 0px -150px !important;
+    background-repeat: no-repeat;
+    height: 800px !important;
+    background-attachment: scroll !important;
+  }
+
+  /*Sections - ESPAÑA*/
+
+#fh5co-home.ireland {
+  background-image: url('../images/ireland_bg.jpg');
+  background-size: cover;
+  background-position: 0px -330px !important;
+  background-repeat: no-repeat;
+}
+
+/*dublin*/
+#fh5co-home.dublin {
+  background-image: url('../images/dublin/bg.jpg');
+  background-size: cover;
+  background-position: 0px -300px !important;
+  background-repeat: no-repeat;
+}
+
+  /*curso 1*/
+  #fh5co-home.dublin_1 {
+    background-image: url('../images/dublin/dublin_contact_1.png');
+    background-size: cover;
+    background-position: 0px -150px !important;
+    background-repeat: no-repeat;
+    height: 800px !important;
+    background-attachment: scroll !important;
+  }
+  #fh5co-home.dublin_2 {
+    background-image: url('../images/dublin/dublin_contact_2.png');
+    background-size: cover;
+    background-position: 0px -150px !important;
+    background-repeat: no-repeat;
+    height: 800px !important;
+    background-attachment: scroll !important;
+  }
+  #fh5co-home.dublin_3 {
+    background-image: url('../images/dublin/dublin_contact_3.png');
+    background-size: cover;
+    background-position: 0px -150px !important;
+    background-repeat: no-repeat;
+    height: 800px !important;
+    background-attachment: scroll !important;
+  }
+  #fh5co-home.dublin_4 {
+    background-image: url('../images/dublin/dublin_contact_4.png');
+    background-size: cover;
+    background-position: 0px -150px !important;
+    background-repeat: no-repeat;
+    height: 800px !important;
+    background-attachment: scroll !important;
+  }
+  #fh5co-home.dublin_5 {
+    background-image: url('../images/dublin/dublin_contact_5.png');
+    background-size: cover;
+    background-position: 0px -150px !important;
+    background-repeat: no-repeat;
+    height: 800px !important;
+    background-attachment: scroll !important;
+  }
+  #fh5co-home.dublin_6 {
+    background-image: url('../images/dublin/dublin_contact_6.png');
     background-size: cover;
     background-position: 0px -150px !important;
     background-repeat: no-repeat;
