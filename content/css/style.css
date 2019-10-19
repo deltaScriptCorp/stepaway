@@ -1941,7 +1941,6 @@ p {
     background-attachment: scroll !important;
   }
 
-
 /*Toronto*/
 #fh5co-home.toronto {
   background-image: url('../images/toronto/bg.jpg');
@@ -2145,6 +2144,7 @@ p {
     height: 800px !important;
     background-attachment: scroll !important;
   }
+/*fin cursos*/
 
 /*Sections - ESPAÑA*/
 
@@ -2197,7 +2197,7 @@ p {
     background-attachment: scroll !important;
   }
 
-  /*Sections - ESPAÑA*/
+/*Sections - IRLANDA*/
 
 #fh5co-home.ireland {
   background-image: url('../images/ireland_bg.jpg');
@@ -2264,6 +2264,165 @@ p {
     background-attachment: scroll !important;
   }
 
+/*Sections - FRANCIA*/
+
+#fh5co-home.france {
+  background-image: url('../images/france_bg.jpg');
+  background-size: cover;
+  background-position: 0px -330px !important;
+  background-repeat: no-repeat;
+}
+
+/*Cannes*/
+#fh5co-home.cannes {
+  background-image: url('../images/cannes/bg.jpg');
+  background-size: cover;
+  background-position: 0px -300px !important;
+  background-repeat: no-repeat;
+}
+
+  /*curso 1*/
+  #fh5co-home.cannes_1 {
+    background-image: url('../images/cannes/cannes_contact_1.png');
+    background-size: cover;
+    background-position: 0px -150px !important;
+    background-repeat: no-repeat;
+    height: 800px !important;
+    background-attachment: scroll !important;
+  }
+  #fh5co-home.cannes_2 {
+    background-image: url('../images/cannes/cannes_contact_2.png');
+    background-size: cover;
+    background-position: 0px -150px !important;
+    background-repeat: no-repeat;
+    height: 800px !important;
+    background-attachment: scroll !important;
+  }
+  #fh5co-home.cannes_3 {
+    background-image: url('../images/cannes/cannes_contact_3.png');
+    background-size: cover;
+    background-position: 0px -150px !important;
+    background-repeat: no-repeat;
+    height: 800px !important;
+    background-attachment: scroll !important;
+  }
+  #fh5co-home.cannes_4 {
+    background-image: url('../images/cannes/cannes_contact_4.png');
+    background-size: cover;
+    background-position: 0px -150px !important;
+    background-repeat: no-repeat;
+    height: 800px !important;
+    background-attachment: scroll !important;
+  }
+  #fh5co-home.cannes_5 {
+    background-image: url('../images/cannes/cannes_contact_5.png');
+    background-size: cover;
+    background-position: 0px -150px !important;
+    background-repeat: no-repeat;
+    height: 800px !important;
+    background-attachment: scroll !important;
+  }
+
+/*Lyon*/
+#fh5co-home.lyon {
+  background-image: url('../images/lyon/bg.jpg');
+  background-size: cover;
+  background-position: 0px -300px !important;
+  background-repeat: no-repeat;
+}
+
+   /*curso 1*/
+   #fh5co-home.lyon_1 {
+      background-image: url('../images/lyon/lyon_contact_1.png');
+      background-size: cover;
+      background-position: 0px -150px !important;
+      background-repeat: no-repeat;
+      height: 800px !important;
+      background-attachment: scroll !important;
+   }
+   #fh5co-home.lyon_2 {
+      background-image: url('../images/lyon/lyon_contact_2.png');
+      background-size: cover;
+      background-position: 0px -150px !important;
+      background-repeat: no-repeat;
+      height: 800px !important;
+      background-attachment: scroll !important;
+   }
+   #fh5co-home.lyon_3 {
+      background-image: url('../images/lyon/lyon_contact_3.png');
+      background-size: cover;
+      background-position: 0px -150px !important;
+      background-repeat: no-repeat;
+      height: 800px !important;
+      background-attachment: scroll !important;
+   }
+   #fh5co-home.lyon_4 {
+      background-image: url('../images/lyon/lyon_contact_4.png');
+      background-size: cover;
+      background-position: 0px -150px !important;
+      background-repeat: no-repeat;
+      height: 800px !important;
+      background-attachment: scroll !important;
+   }
+   #fh5co-home.lyon_5 {
+      background-image: url('../images/lyon/lyon_contact_5.png');
+      background-size: cover;
+      background-position: 0px -150px !important;
+      background-repeat: no-repeat;
+      height: 800px !important;
+      background-attachment: scroll !important;
+   }
+
+/*montpellier*/
+#fh5co-home.montpellier {
+  background-image: url('../images/montpellier/bg.jpg');
+  background-size: cover;
+  background-position: 0px -300px !important;
+  background-repeat: no-repeat;
+}
+
+  /*curso 1*/
+   #fh5co-home.montpellier_1 {
+      background-image: url('../images/montpellier/montpellier_contact_1.png');
+      background-size: cover;
+      background-position: 0px -150px !important;
+      background-repeat: no-repeat;
+      height: 800px !important;
+      background-attachment: scroll !important;
+   }
+   #fh5co-home.montpellier_2 {
+      background-image: url('../images/montpellier/montpellier_contact_2.png');
+      background-size: cover;
+      background-position: 0px -150px !important;
+      background-repeat: no-repeat;
+      height: 800px !important;
+      background-attachment: scroll !important;
+   }
+   #fh5co-home.montpellier_3 {
+      background-image: url('../images/montpellier/montpellier_contact_3.png');
+      background-size: cover;
+      background-position: 0px -150px !important;
+      background-repeat: no-repeat;
+      height: 800px !important;
+      background-attachment: scroll !important;
+   }
+   #fh5co-home.montpellier_4 {
+      background-image: url('../images/montpellier/montpellier_contact_4.png');
+      background-size: cover;
+      background-position: 0px -150px !important;
+      background-repeat: no-repeat;
+      height: 800px !important;
+      background-attachment: scroll !important;
+   }
+   #fh5co-home.montpellier_5 {
+      background-image: url('../images/montpellier/montpellier_contact_5.png');
+      background-size: cover;
+      background-position: 0px -150px !important;
+      background-repeat: no-repeat;
+      height: 800px !important;
+      background-attachment: scroll !important;
+   }
+
   /*Contacto*/
 
 #fh5co-intro .contact {
@@ -2280,4 +2439,11 @@ p {
 .row-lg-contact {
   width: 100% !important;
 }
-  
+
+.nameSection > input {
+   width: 40%;
+}
+
+.birthSection > input {
+   width: 20%;
+}
