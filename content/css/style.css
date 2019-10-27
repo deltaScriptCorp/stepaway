@@ -2435,6 +2435,29 @@ p {
   min-height: 300px !important;
   vertical-align: middle !important;
   padding: 40px !important;
+  color: #fff !important;
+}
+#fh5co-intro .contact-info > .fh5co-text > h3 {
+  text-align: center !important;
+  color: #234b6d !important;
+}
+#fh5co-intro .contact-info > .fh5co-text > p {
+  text-align: justify !important;
+}
+#fh5co-intro .contact-info > .fh5co-text > details > ul {
+  text-align: left !important;
+}
+#fh5co-intro .contact-info {
+  border-radius: 0% !important;
+  float: left;
+  width: 66.66% !important; 
+  background: transparent !important;
+  min-height: 360px !important;
+  vertical-align: middle !important;
+  margin-top: 60px !important;
+  padding: 40px !important;
+  box-shadow: none !important;
+  color: #000;
 }
 .row-lg-contact {
   width: 100% !important;
@@ -2446,4 +2469,48 @@ p {
 
 .birthSection > input {
    width: 20%;
+}
+
+/*Accordion*/
+details {
+	display:block; 
+  margin:10px 0;
+  border: 1px solid #000000;
+}
+summary {
+  display:block; 
+  text-align: center;
+	color:black;
+	border-radius:5px;
+	padding:5px;
+  cursor:pointer;
+}
+
+summary::-webkit-details-marker {
+   color:#FF0000; 
+   background:#FFFFFF; 
+}
+
+details[open] summary::-webkit-details-marker {
+   color:#0000FF; 
+   background:#00FFFF;
+}
+summary::-webkit-details-marker {
+   display: none
+}
+
+summary:after {
+   color: #FFFFFF;
+   float: left;
+   font-size: 1.5em;
+   font-weight: bold;
+   margin: -5px 5px 0 0;
+   padding: 0;
+   text-align: center;
+   width: 20px;
+}
+
+details[open] summary:after {
+   content: "-";
+  color: #FFFFFF
 }
