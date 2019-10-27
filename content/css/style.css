@@ -2514,3 +2514,30 @@ details[open] summary:after {
    content: "-";
   color: #FFFFFF
 }
+
+/* Tooltip container */
+.tooltip-delta {
+  position: relative;
+  display: inline-block;
+}
+
+/* Tooltip text */
+.tooltip-delta .tooltiptext {
+  visibility: hidden;
+  width: 300px;
+  background-color: #fff;
+  color: #000;
+  text-align: left;
+  padding: 2px 0;
+  border: 1px solid #000;
+  border-radius: 6px;
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 1;
+  font-size: 14px;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip-delta:hover .tooltiptext {
+  visibility: visible;
+}
