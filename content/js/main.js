@@ -490,5 +490,47 @@
 		window.location.href = "españa"
 	});
 
-
 }());
+
+//Formulario
+function sendLead (id){
+	
+	var name= $('[name="'+id+'-nombre"]').val();
+	var lastName= $('[name="'+id+'-apellidos"]').val();
+	var email= $('[name="'+id+'-email"]').val();
+	var phone= $('[name="'+id+'-telefono"]').val();
+	var day= $('[name="'+id+'-dd"]').val();
+	var month= $('[name="'+id+'-mm"]').val();
+	var year= $('[name="'+id+'-yyyy"]').val();
+	var promocode= $('[name="'+id+'-promocode"]').val();
+	f = {
+		"client": {
+			"email": email,
+			"firstName": name,
+			"lastName": lastName,
+			"phone": [
+			{
+				"number": phone,
+				"type": "Mobile"
+			}
+			],
+			"birthday": year+'-'+month+'-'+day,
+		},
+		"distributor": {
+			"id": 630,
+			"name": "Stepaway"
+		}
+	}
+	$.ajax({
+		url: 'http://qaserver.masterkeyeducation.com/integration/step-away/widget/n5fibo9270vk5p6jtg7dr5bdnh3rj2c7/sale',
+		data:f,
+		async: false,
+		type: 'POST',
+		success: function (response) {
+		   alert('Gracias, tus dato fueron enviados');
+		},
+		error: function (){
+			alert('Ha ocurrido un error al enviar el formulario');
+		}
+	 }); //fin ajax
+}
