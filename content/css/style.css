@@ -2475,16 +2475,16 @@ p {
 /*Accordion*/
 details {
 	display:block; 
-  margin:10px 0;
-  border: 1px solid #000000;
+   margin:10px 0;
+   /*border: 1px solid #000000;*/
 }
 summary {
-  display:block; 
-  text-align: center;
+   display:block; 
+   text-align: center;
 	color:black;
 	border-radius:5px;
 	padding:5px;
-  cursor:pointer;
+   cursor:pointer;
 }
 
 summary::-webkit-details-marker {
@@ -2493,8 +2493,8 @@ summary::-webkit-details-marker {
 }
 
 details[open] summary::-webkit-details-marker {
-   color:#0000FF; 
-   background:#00FFFF;
+   color:#fff; 
+   background:#fff;
 }
 summary::-webkit-details-marker {
    display: none
@@ -2513,7 +2513,7 @@ summary:after {
 
 details[open] summary:after {
    content: "-";
-  color: #FFFFFF
+   color: #FFFFFF
 }
 
 /* Tooltip container */
