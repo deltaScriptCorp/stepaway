@@ -180,25 +180,29 @@
 							<form>
 								Nombre:<br>
 								<section class="nameSection">
-									<input type="text" placeholder="Nombre" name="nombre" />
-									<input type="text" placeholder="Apellidos" name="apellidos" />
+									<input type="text" placeholder="Nombre" name="calgary-ingneg-nombre" />
+									<input type="text" placeholder="Apellidos" name="calgary-ingneg-apellidos" />
 								</section>
 								<br>
 								Email: <br>
-								<input type="text" placeholder="E-mail" name="email" />
+								<input type="text" placeholder="E-mail" name="calgary-ingneg-email" />
 								<br><br>
 								Teléfono:<br>
-								<input type="tel" placeholder="Telefono" name="telefono" />
+								<input type="tel" placeholder="Telefono" name="calgary-ingneg-telefono" />
 								<br><br>
 								Fecha de Nacimiento:<br>
+
 								<section class="birthSection">
-                           <input type="number" placeholder="DD" name="dd" />
-                           <input type="number" placeholder="MM " name="mm" />
-                           <input type="number" placeholder="YYYY" name="yyyy" />
-                        </section>
+									<input type="number" placeholder="DD" name="calgary-ingneg-dd" />
+									<input type="number" placeholder="MM " name="calgary-ingneg-mm" />
+									<input type="number" placeholder="YYYY" name="calgary-ingneg-yyyy" />
+								</section>
+								<br><br>
+								Promo code:<br>
+								<input type="text" placeholder="Còdigo" name="calgary-ingneg-promocode" />
 								<br><br>
 							</form>
-							<p><a href="#" class="btn btn-primary">ENVIAR</a></p>
+							<p><a href="#" class="btn btn-primary" id="calgary-ingneg" onclick="sendLead(this.id);">ENVIAR</a></p>
 						</div>
 					</div>
 				</div>

@@ -180,25 +180,29 @@
 							<form>
 								Nombre:<br>
 								<section class="nameSection">
-									<input type="text" placeholder="Nombre" name="nombre" />
-									<input type="text" placeholder="Apellidos" name="apellidos" />
+									<input type="text" placeholder="Nombre" name="calgary-ielts-nombre" />
+									<input type="text" placeholder="Apellidos" name="calgary-ielts-apellidos" />
 								</section>
 								<br>
 								Email: <br>
-								<input type="text" placeholder="E-mail" name="email" />
+								<input type="text" placeholder="E-mail" name="calgary-ielts-email" />
 								<br><br>
 								Teléfono:<br>
-								<input type="tel" placeholder="Telefono" name="telefono" />
+								<input type="tel" placeholder="Telefono" name="calgary-ielts-telefono" />
 								<br><br>
 								Fecha de Nacimiento:<br>
+
 								<section class="birthSection">
-                           <input type="number" placeholder="DD" name="dd" />
-                           <input type="number" placeholder="MM " name="mm" />
-                           <input type="number" placeholder="YYYY" name="yyyy" />
-                        </section>
+									<input type="number" placeholder="DD" name="calgary-ielts-dd" />
+									<input type="number" placeholder="MM " name="calgary-ielts-mm" />
+									<input type="number" placeholder="YYYY" name="calgary-ielts-yyyy" />
+								</section>
+								<br><br>
+								Promo code:<br>
+								<input type="text" placeholder="Còdigo" name="calgary-ielts-promocode" />
 								<br><br>
 							</form>
-							<p><a href="#" class="btn btn-primary">ENVIAR</a></p>
+							<p><a href="#" class="btn btn-primary" id="calgary-ielts" onclick="sendLead(this.id);">ENVIAR</a></p>
 						</div>
 					</div>
 				</div>
@@ -277,7 +281,7 @@
 						</a>
 					</div>
 					<div class="col-md-3 col-sm-12 fh5co-service to-animate fadeInUp animated text-center">
-						<a href="ingles-para-maestris">
+						<a href="ingles-para-maestros">
 							<img src="../../../content/images/calgary/calgary_4.png" class="s-img-responsive" alt="Estudia en Calgary" />
 						</a>
 					</div>
