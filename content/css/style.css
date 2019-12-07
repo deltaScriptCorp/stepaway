@@ -2525,7 +2525,7 @@ details[open] summary:after {
 /* Tooltip text */
 .tooltip-delta .tooltiptext {
   visibility: hidden;
-  width: 300px;
+  width: 350px;
   background-color: #fff;
   color: #000;
   text-align: left;
@@ -2536,6 +2536,8 @@ details[open] summary:after {
   position: absolute;
   z-index: 1;
   font-size: 14px;
+  margin-left: -100%;
+  margin-top: -150%;
 }
 
 /* Show the tooltip text when you mouse over the tooltip container */
