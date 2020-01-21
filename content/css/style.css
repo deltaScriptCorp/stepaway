@@ -2540,9 +2540,19 @@ details[open] summary:after {
   margin-top: -150%;
 }
 
+.offices{
+   margin-left: -200%!important;
+   margin-top: -400%!important;
+   text-align: center!important;
+}
+
 /* Show the tooltip text when you mouse over the tooltip container */
 .tooltip-delta:hover .tooltiptext {
   visibility: visible;
+}
+
+.tooltip-delta > h3{
+   color: #fff !important;
 }
 
 /*Slider*/
