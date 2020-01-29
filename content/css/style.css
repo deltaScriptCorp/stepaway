@@ -2203,7 +2203,7 @@ p {
 #fh5co-home.ireland {
   background-image: url('../images/ireland_bg.jpg');
   background-size: cover;
-  background-position: 0px -330px !important;
+  background-position: 0px 0px !important;
   background-repeat: no-repeat;
 }
 
@@ -2211,7 +2211,7 @@ p {
 #fh5co-home.dublin {
   background-image: url('../images/dublin/bg.jpg');
   background-size: cover;
-  background-position: 0px -300px !important;
+  background-position: 0px -100px !important;
   background-repeat: no-repeat;
 }
 
@@ -2276,9 +2276,9 @@ p {
 
 /*Cannes*/
 #fh5co-home.cannes {
-  background-image: url('../images/cannes/bg.jpg');
+  background-image: url('../images/cannes/bg.jpeg');
   background-size: cover;
-  background-position: 0px -300px !important;
+  background-position: 0px -200px !important;
   background-repeat: no-repeat;
 }
 
@@ -2378,7 +2378,7 @@ p {
 #fh5co-home.montpellier {
   background-image: url('../images/montpellier/bg.jpg');
   background-size: cover;
-  background-position: 0px -300px !important;
+  background-position: 0px -100px !important;
   background-repeat: no-repeat;
 }
 
