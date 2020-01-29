@@ -2607,10 +2607,16 @@ details[open] summary:after {
 		width: 250px;
 	}
 
-  #fh5co-home.blog {
+  #fh5co-work.blog {
+    background-image: none !important;
+    background-color: #fff !important;
+    padding-top: 1em !important;
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+    padding-bottom: 2em !important;
     color: #000 !important;
     text-align: justify !important;
   }
-  #fh5co-home.blog > h2 {
+  #fh5co-work.blog > h3 {
     color: #234b6d !important;
   }
