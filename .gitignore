@@ -1,1 +1,11 @@
 includes/db_connection.php
+admin
+cgi-bin
+cms
+incl
+oldSite
+demoSite
+pdf
+robots.txt
+.htaccess
+.ftpquota
